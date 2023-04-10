@@ -8,12 +8,12 @@ while True:
     print("Please enter a valid integer.")
 
 while True:
-  namber = str.lower(input("Include numbers? (y/n) -> "))
-  if namber=="y" or namber=="+" or namber=="yes":
-    namber=2
+  number = str.lower(input("Include numbers? (y/n) -> "))
+  if number=="y" or number=="+" or number=="yes":
+    number=2
     break
-  elif namber=="n" or namber=="-" or namber=="no":
-    namber=1
+  elif number=="n" or number=="-" or number=="no":
+    number=1
     break
 
 while True:
